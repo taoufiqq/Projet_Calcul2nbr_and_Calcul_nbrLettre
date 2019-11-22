@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <div>
+         <h3>Calcul Somme de 2 Nombre</h3>
+    	<input id="nbr1" type="text" name="nbr1" placeholder="nbr1">
+    	<input id="nbr2" type="text" name="nbr2" placeholder="nbr2">
+    	<br><br><br>
+    	<button id="cal" onclick="Somme();">Calculer</button>
+    	<p id="result"></p>
+
+    </div>
+  <script type="text/javascript">
+       function Somme(){
+          var nb1 =document.getElementById('nbr1').value;
+          var nb2 =document.getElementById('nbr2').value;
+          var total = parseFloat(nb1)+parseFloat(nb2);
+          document.getElementById('result').innerHTML=total;
+       }
+
+
+
+
+ /*  function CalculSomme(nb1, nb2)
+   {
+		var somme=0;
+		var nb1 = parseFloat(nb1);
+		var nb2 = parseFloat(nb2);
+		somme = nb1 + nb2;
+        return somme;
+}
+ 
+	var demandeNbr1=prompt('Veuillez entrez un nombre');
+	var demandeNbr2=prompt('Veuillez entrez un deuxieme nombre');
+	var resultat= CalculSomme (demandeNbr1, demandeNbr2);
+ 
+	document.write(resultat)*/
+ 
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+div{
+	border: 5px solid red;
+	width: 300px;
+	height: 400px;
+	margin-left: 450px;
+	border-radius: 20px;
+}
+div #inpt1 {
+	width: 150px;
+	margin-left: 25%;
+	margin-top: 20px;
+	border-radius: 10px;
+	height: 30px;
+}
+div #inpt2 {
+	width: 150px;
+	border-radius: 10px;
+	margin-left: 25%;
+	height: 30px;
+}
+#btn{
+	margin-left: 42%;
+	border-radius: 10px;
+	color: green;
+	height: 30px;
+	background-color: lightblue;
+}
+#res{
+	border-radius: 10px;
+	background-color: black;
+	height: 40px;
+	color: white;
+	width: 50%;
+	margin-left: 26%;
+	line-height: 40px;
+	text-align: center;
+}
+div h3{
+	text-align: center;
+	color: black;
+	margin-top: 40px;
+	font-size: 20px;
+}

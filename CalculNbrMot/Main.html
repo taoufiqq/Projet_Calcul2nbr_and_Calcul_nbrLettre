@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	  <div>
+	  	<h3>Entrez La Phrase</h3>
+	  	<input id="inpt1" type="text" placeholder="Entrez La Phrase">
+	  	<br><br>
+	  	<input id="inpt2" type="text" placeholder="Entrez La lettre">
+	  	<br><br><br>
+	  	<button id="btn" onclick="calcul();">Calcul</button>
+	  	<p id="res"></p>
+
+	  </div>
+	  <script type="text/javascript">
+	  	function calcul(){
+         var phrase=document.getElementById('inpt1').value;
+         var lettre=document.getElementById('inpt2').value;
+         var nbr=0; 
+         for (var i = 0; i <phrase.length; i++) {
+         	if (phrase.charAt(i)==lettre) {
+         		nbr++;
+         	}
+         }
+          document.getElementById('res').innerHTML=nbr;
+
+	  	}
+
+	  </script>
+
+</body>
+</html>
